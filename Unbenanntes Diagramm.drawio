@@ -1,9 +1,158 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Seite-1" id="Yzn7aYymL1-To05OkLc7">
-    <mxGraphModel>
+    <mxGraphModel dx="2282" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-4" target="Ikuu36PKtB8Vembw-Drp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-13" value="Succefull Authentication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-12">
+          <mxGeometry x="-0.2091" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-4" value="Attacker Machine&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#FF0000;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="449" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-5" value="VULTR (Virtual Machine)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="560" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="Ikuu36PKtB8Vembw-Drp-5" source="Ikuu36PKtB8Vembw-Drp-3" target="Ikuu36PKtB8Vembw-Drp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-11" value="Telemetry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-10">
+          <mxGeometry x="0.0032" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-3" value="Test Machine&lt;div&gt;Windows Server&lt;/div&gt;&lt;div&gt;Domain: MyDFIR.local&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#66FFFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servers;" vertex="1" parent="Ikuu36PKtB8Vembw-Drp-5">
+          <mxGeometry x="50" y="360" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="Ikuu36PKtB8Vembw-Drp-5" source="Ikuu36PKtB8Vembw-Drp-1" target="Ikuu36PKtB8Vembw-Drp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-8" value="Telemetry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-6">
+          <mxGeometry x="-0.0265" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-9" value="Telemetry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-6">
+          <mxGeometry x="-0.0132" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-1" value="Domain Controller&lt;div&gt;Windows Server&lt;/div&gt;&lt;div&gt;Domain: MyDFIR.local&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servers;" vertex="1" parent="Ikuu36PKtB8Vembw-Drp-5">
+          <mxGeometry x="50" y="172" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-2" value="Splunk&lt;br&gt;Ubuntu Server" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#00FF00;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servers;" vertex="1" parent="Ikuu36PKtB8Vembw-Drp-5">
+          <mxGeometry x="430" y="172" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-14" value="Slack" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="790" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=openThin;startFill=0;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-15" target="Ikuu36PKtB8Vembw-Drp-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="-40" />
+              <mxPoint x="1350" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-35" value="Move onto next step" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-34">
+          <mxGeometry y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-15" value="Shuffle" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="790" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-2" target="Ikuu36PKtB8Vembw-Drp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-18" value="Alert Notification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-16">
+          <mxGeometry x="0.0146" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-2" target="Ikuu36PKtB8Vembw-Drp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-19" value="Trigger Playbook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-17">
+          <mxGeometry x="-0.0048" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-20" value="Succesfull Unauthorized Login Playbook" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="409" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-21" value="Send Email to SOC Analyst asking if they want to disable the user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ikuu36PKtB8Vembw-Drp-20">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-22" value="If YES - disable Domain Account&lt;div&gt;If NO - Do Nothing&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ikuu36PKtB8Vembw-Drp-20">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-23" value="Challenge: Enrich Public Source IPs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ikuu36PKtB8Vembw-Drp-20">
+          <mxGeometry y="90" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-24" target="Ikuu36PKtB8Vembw-Drp-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-30" value="Disable User?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-29">
+          <mxGeometry x="-0.0111" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-24" target="Ikuu36PKtB8Vembw-Drp-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-33" value="Disable User?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-32">
+          <mxGeometry x="-0.0114" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-24" value="SOC Analyst" style="shape=actor;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="60" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-24" target="Ikuu36PKtB8Vembw-Drp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-15" target="Ikuu36PKtB8Vembw-Drp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-27" value="Email Notification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-26">
+          <mxGeometry x="-0.0217" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-28" value="Yes" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-31" target="Ikuu36PKtB8Vembw-Drp-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-31" value="No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-1" target="Ikuu36PKtB8Vembw-Drp-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199" y="-40" />
+              <mxPoint x="850" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-37" value="Disable Domain User" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ikuu36PKtB8Vembw-Drp-36">
+          <mxGeometry x="0.1124" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-38" value="Account: (Account Name) has been disabled." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Ikuu36PKtB8Vembw-Drp-15" target="Ikuu36PKtB8Vembw-Drp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikuu36PKtB8Vembw-Drp-41" value="Do Nothing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="313" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
