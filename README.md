@@ -1,4 +1,5 @@
 # Active-Directory-Project
 
-https://github.com/hansleonp/Active-Directory-Project/blob/b0ba3467b69285148c5d1d87c0a7343caafe843b/Unbenanntes%20Diagramm.drawio
+
+![AD_Project_Diagram drawio](https://github.com/user-attachments/assets/dcb8714a-391f-462e-b079-2bfbf855d261)
 
